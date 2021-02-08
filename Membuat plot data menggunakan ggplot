@@ -8,6 +8,11 @@ plot.dki <- ggplot(data=penduduk.dki, aes(x = LUAS.WILAYAH..KM2.,  y=KEPADATAN..
 #Menambahkan layer untuk menghasilkan grafik scatter plot
 plot.dki + layer(geom="point",stat="identity",position="identity")
 
+
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
 #Versi yang lebih pendek menggunakan geom point (Sama Saja)
 
 library(ggplot2)
